@@ -1,34 +1,67 @@
+# ======================
+# Python
+# ======================
 __pycache__/
-*.pyc
-*.pyo
-*.pyd
-*.swp
-*.swo
-*.log
+*.py[cod]
+*$py.class
 
+# ======================
+# Virtual environments
+# ======================
 .venv/
 venv/
 env/
 
-.cache/
+# ======================
+# Environment variables
+# ======================
+.env
+.env.*
+
+# ======================
+# Pytest / cache
+# ======================
 .pytest_cache/
+.cache/
+pytest.ini
 
-allure-results/
-allure-report/
+# ======================
+# Logs
+# ======================
+*.log
 
+# ======================
+# Coverage / reports
+# ======================
 htmlcov/
-*.coverage
+.coverage
+.coverage.*
 *.cover
 *.cov
 *.gcov
 
+# ======================
+# Allure
+# ======================
+allure-results/
+allure-report/
+
+# ======================
+# IDEs
+# ======================
 .idea/
 .vscode/
 *.iml
 
+# ======================
+# OS files
+# ======================
+.DS_Store
+Thumbs.db
+
+# ======================
+# Other
+# ======================
 *.pid
 *.seed
 *.pid.lock
-
-.DS_Store
-Thumbs.db
